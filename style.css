@@ -1,0 +1,297 @@
+.navbar {
+    background-color: #f8f9fa !important;
+    min-height: 12vh;
+    height: auto;
+    padding-left: 110px;
+}
+
+.header-img {
+    width: 170px;
+    height: 60px;
+    margin-right: 38vw;
+}
+
+.navtxt {
+    font-weight: 680;
+    color: #000000 !important;
+    font-size: 17px;
+}
+
+.head {
+    margin-left: -12px;
+}
+
+.home {
+    height: 88vh;
+    background: linear-gradient(99.76deg, #FB9939 17.21%, #FC4734 89.4%)red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imgdiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 0px !important;
+}
+
+.homeimg {
+    height: auto;
+    margin-left: -12px;
+}
+
+.descdiv {
+    padding-left: 0;
+}
+
+.desc1 {
+    line-height: 120%;
+    text-align: justify;
+    position: relative;
+
+}
+
+.display-5 {
+    color: #f8f9fa;
+    font-weight: 800;
+    font-size: 31px;
+}
+
+.display-6 {
+    color: #f8f9fa;
+    font-weight: 600;
+    font-size: 27px;
+}
+
+.p {
+    color: #f8f9fa;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.btn {
+    border-radius: 8px;
+    color: #000000;
+    font-weight: 600;
+}
+
+.getit-contain {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.getit {
+    display: flex;
+    justify-content: space-evenly;
+    max-width: 290px;
+    margin: auto;
+    margin-bottom: 4em;
+}
+
+.bn45 {
+    width: 110px;
+    height: 35px;
+    border-radius: 7%;
+}
+
+.bn46 {
+    width: 110px;
+    height: 35px;
+    border-radius: 7%;
+
+}
+
+.coursesdiv {
+    background-image: url("./public/bg.jpeg");
+    background-size:auto    ;
+    background-repeat: repeat;
+    height: auto;
+    margin-left: -12px;
+}
+.learning{
+    height: auto;
+    background-color: transparent;
+}
+.learnDivs{
+    margin-left: 17%;
+}
+.imgsdiv {
+    z-index: 1;
+}
+
+.title {
+    width: 100%;
+    height: 22vh;
+    color: #FC4734;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.h1 {
+    font-weight: 800 !important;
+}
+
+.btnn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh !important;
+}
+
+.btnn1 {
+    color: #000;
+    background-color: #f8f9fa;
+    border-color: #f8f9fa;
+    border-radius: 8px;
+    font-weight: 600;
+    height: 5.5vh;
+    width: 8vw;
+}
+
+.building {
+    height: auto;
+    width: 100%;
+    background-color: #FFEAE1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.buildDesc {
+    margin-top: 26vh;
+}
+
+h1 {
+    font-weight: 800;
+    text-align: center;
+    color: #FC4734;
+
+}
+
+h2 {
+    color: #FF9488;
+    font-weight: 800;
+    text-align: center;
+    margin-top: -15px;
+}
+
+.contentBox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content {
+    margin-top: 9vh;
+}
+
+.para {
+    font-size: 16px;
+}
+
+.spn {
+    font-weight: 700;
+}
+
+.spn1 {
+    color: #FC4734;
+    font-weight: 700;
+}
+
+.imm {
+    display: flex;
+}
+
+.im1 {
+    margin-top: -495px;
+    margin-left: 3vh;
+}
+
+.im2 {
+    margin-top: -495px;
+    margin-left: 55vw;
+}
+
+.line{
+    margin-top: 4vh;
+    margin-left: 8vw;
+    margin-bottom: 16vh;
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.learnDivs{
+    margin-left: 130px;
+}
+.learnh{
+    margin-top: 10vh;
+}
+.Div2{
+margin-left: 24%;
+}
+
+.card{
+    border: none !important;
+    background-color: transparent;
+}
+.spanCard{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+@media (max-width: 767px) {
+    .home {
+        height: auto;
+    }
+
+    .header-img {
+        margin-right: 0;
+        margin-left: -125px;
+
+    }
+
+    .homeimg {
+        max-width: 90%;
+        max-height: auto;
+        height: auto;
+        width: 100%;
+        margin: auto;
+        display: flex;
+        margin-top: 4em;
+        margin-right: 41px;
+    }
+
+    .descdiv {
+        padding-top: 0;
+        padding-left: 7vw;
+    }
+
+    .getit {
+        margin-left: 0;
+        padding-left: 1.8vw;
+        margin-top: 1vh;
+    }
+
+    .btnn1 {
+        width: 29vw;
+        height: 4.8vh;
+    }
+    .imm{
+        display: none;
+    }
+    .line{
+        width: 80%;
+        margin-top: 6vh;
+    }
+    .learnDivs,.Div2{
+        margin-left: 13%;
+    }
+    .cardds{
+        margin-top: 5vh;
+    }
+}
